@@ -82,12 +82,17 @@ img {
 
 @media screen and (max-width:419px){
  
+  .row{
+    width: 100%;
+  }
+
+
   #lezioni > .row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(224, 224, 170);  
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   #lezioni .row h1{
@@ -119,12 +124,16 @@ img {
 
 @media screen and (max-width:767px){
  
+  .row{
+    width: 100%;
+  }
+
   #lezioni > .row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(224, 224, 170);  
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   #lezioni .row h1{
@@ -160,7 +169,11 @@ img {
 
   #steps {
     background-color: transparent;
-    font-size: 2em;
+    font-size: 1.3em;
+  }
+
+  .row{
+    width: 100%;
   }
 
   #steps > .row {
@@ -187,7 +200,11 @@ img {
 
   #steps {
     background-color: transparent;
-    font-size: 2em;
+    font-size: 1.3em;
+  }
+
+  .row{
+    width: 100%;
   }
 
   #steps > .row {
@@ -216,7 +233,7 @@ img {
   
   #why{
     background-color: transparent;  
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   #why .row{
@@ -245,7 +262,7 @@ img {
   
   #why{
     background-color: transparent;  
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   #why .row{
